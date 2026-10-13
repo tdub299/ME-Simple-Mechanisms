@@ -10,6 +10,7 @@ Registry.registerTopic('lesson-1', {
 <h2>The capstan equation</h2>
 <div class="formula">T<sub>load</sub> = T<sub>hold</sub> · e<sup>μθ</sup></div>
 <p>θ is the total wrap angle in radians (one full turn = 2π) and μ the friction coefficient. The reason it is exponential: every small piece of wrap is pressed onto the drum in proportion to the local rope tension, so the friction it adds is a fixed fraction of the tension already there. Tension grows by the same percentage per degree of wrap, like compound interest. For an ideal flexible rope, the <strong>drum radius does not appear</strong> at all.</p>
+<p>With μ = 0.3, half a turn multiplies holding force 2.6×, one turn 6.6×, two turns 43× and three turns about 286×.</p>
 
 <figure class="diagram">
   <svg viewBox="0 0 560 266" role="img" aria-label="Rope around a capstan, and a band brake with lever">

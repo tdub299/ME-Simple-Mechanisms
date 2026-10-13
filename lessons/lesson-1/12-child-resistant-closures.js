@@ -8,7 +8,7 @@ Registry.registerTopic('lesson-1', {
     'A child-resistant (CR) closure asks for <strong>two different motions at the same time</strong>, such as push and turn or squeeze and turn. Young children struggle to coordinate that; adults do it without thinking. The design is judged by a standardized test on real children and older adults, not by a force number.',
   body: `
 <h2>Push-and-turn: the classic two-piece cap</h2>
-<p>An outer cap spins freely over an inner cap, which carries the thread. They are coupled by teeth on top of the inner cap and lugs inside the outer cap. A light flex or spring holds the outer cap up.</p>
+<p>An outer cap spins freely over an inner cap, which carries the thread. They are coupled by teeth on top of the inner cap and lugs inside the outer cap. Each tooth has a vertical face on one side and a ramp on the other. A light flex or spring holds the outer cap up.</p>
 
 <figure class="diagram">
   <svg viewBox="0 0 590 240" role="img" aria-label="Unrolled view of push-and-turn closure teeth, without and with downward push">

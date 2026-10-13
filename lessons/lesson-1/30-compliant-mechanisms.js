@@ -47,7 +47,7 @@ Registry.registerTopic('lesson-1', {
 </ul>
 
 <h2>Sizing a parallelogram flexure</h2>
-<p>Each leaf bends as a fixed-guided beam (both ends stay parallel). For two leaves of width b, thickness t and length L in a material of modulus E:</p>
+<p>Each leaf bends as a fixed-guided beam (both ends stay parallel). For two leaves of width b, thickness t and length L in a material of modulus E, with stage travel δ, the stiffness, peak leaf stress and parasitic drop Δ (the stage moving slightly perpendicular to its travel) are:</p>
 <div class="formula">k = <span class="frac"><span>2 E b t<sup>3</sup></span><span>L<sup>3</sup></span></span></div>
 <div class="formula">σ<sub>max</sub> = <span class="frac"><span>3 E t δ</span><span>L<sup>2</sup></span></span></div>
 <div class="formula">Δ ≈ <span class="frac"><span>3 δ<sup>2</sup></span><span>5 L</span></span> (parasitic drop)</div>

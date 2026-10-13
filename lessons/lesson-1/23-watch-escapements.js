@@ -40,6 +40,7 @@ Registry.registerTopic('lesson-1', {
   <figcaption>Simplified layout. The escape wheel pushes on the pallet jewels; the pallet fork rocks and its horns flick the roller jewel on the balance staff, then let it go. The balance swings freely for most of its arc.</figcaption>
 </figure>
 
+<p>Three parts do the work: the <strong>escape wheel</strong>, driven by the mainspring through the gear train; the <strong>pallet fork</strong> (lever), which rocks on its own pivot and carries two ruby pallet jewels; and the <strong>balance wheel</strong>, whose staff carries a small roller jewel that engages a notch in the end of the fork.</p>
 <p>Each beat has four phases:</p>
 <ol>
   <li><strong>Lock:</strong> an escape wheel tooth rests on one pallet jewel's locking face. The train is stopped, and the balance swings freely, detached from everything.</li>

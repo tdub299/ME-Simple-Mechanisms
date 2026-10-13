@@ -40,7 +40,7 @@ Registry.registerTopic('lesson-1', {
 <div class="formula">F ≈ P · A<sub>rod</sub> − friction</div>
 <ul>
   <li><strong>Why rod area:</strong> pressure on the piston's two faces cancels except for the area the rod takes up on one side. A 10 mm rod at 150 bar gives about 1,180 N.</li>
-  <li><strong>Progression:</strong> pushing the rod in reduces the gas volume by the rod volume that enters, so pressure and force rise along the stroke. The ratio of force at full compression to force at full extension (often 1.2–1.6) is set by tube volume relative to rod volume.</li>
+  <li><strong>Progression:</strong> pushing the rod in reduces the gas volume by the rod volume that enters, so pressure and force rise along the stroke. The ratio of force at full compression to force at full extension (often 1.2–1.6) is set by tube volume relative to rod volume. Seal friction makes compression force higher than extension force, a hysteresis band.</li>
   <li><strong>Damping:</strong> gas must squeeze through the piston orifice, which limits extension speed. Near the end of the stroke the piston enters the oil, which flows through the orifice much more slowly. That gives a soft hydraulic stop.</li>
   <li><strong>Orientation:</strong> they are installed <strong>rod down</strong> where possible, so the oil sits at the seal, keeping it lubricated and providing end damping.</li>
 </ul>

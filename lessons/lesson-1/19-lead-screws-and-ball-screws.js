@@ -12,6 +12,7 @@ Registry.registerTopic('lesson-1', {
 <div class="formula">η = <span class="frac"><span>tan λ · (1 − μ tan λ)</span><span>tan λ + μ</span></span></div>
 <p>and the torque to drive an axial load F is:</p>
 <div class="formula">T = <span class="frac"><span>F · L</span><span>2π · η</span></span></div>
+<p>For scale: at μ = 0.1 a lead screw is about 46% efficient at a 5° lead angle and 80% at 30°, while a ball screw (μ ≈ 0.005) is about 95% efficient even at 5°.</p>
 
 <figure class="diagram">
   <svg viewBox="0 0 540 250" role="img" aria-label="Screw efficiency versus lead angle for friction coefficients 0.2, 0.1 and a ball screw">

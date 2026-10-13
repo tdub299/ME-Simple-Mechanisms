@@ -50,6 +50,7 @@ Registry.registerTopic('lesson-1', {
   <li>With no key, the springs push the drivers down across the shear line, blocking rotation.</li>
   <li>The key's cuts lift each stack by a different amount. With the right key, every key-pin/driver interface lands on the shear line.</li>
 </ol>
+<p>A cut that is too shallow pushes the key pin up across the shear line; a cut that is too deep leaves the driver pin across it. Either way, one pin bridges the gap and the plug cannot turn.</p>
 
 <figure class="diagram">
   <svg viewBox="0 0 540 170" role="img" aria-label="One pin stack with the correct cut, a cut too shallow, and a cut too deep">

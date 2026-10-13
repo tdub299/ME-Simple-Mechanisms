@@ -41,7 +41,7 @@ Registry.registerTopic('lesson-1', {
   </svg>
   <figcaption>As θ shrinks, a small force at the knee makes a large force along the line of the links. Just past θ = 0, the output reaction itself pushes the knee into a stop, so the clamp holds with no input.</figcaption>
 </figure>
-<p>For a symmetric toggle with force applied at the knee, perpendicular to the line of action:</p>
+<p>Two links run from a fixed pivot to a knee and from the knee to the output. Call θ the angle each link makes with the straight line between the end pivots. For a symmetric toggle with force applied at the knee, perpendicular to that line:</p>
 <div class="formula">F<sub>out</sub> = <span class="frac"><span>F<sub>in</sub></span><span>2 tan θ</span></span></div>
 
 <figure class="diagram">

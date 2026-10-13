@@ -41,9 +41,9 @@ Registry.registerTopic('lesson-1', {
   </svg>
   <figcaption>Left: a constant-section cantilever snap. y is the undercut depth. Strain peaks at the root, so beam length L is the strongest lever. Right: a living hinge is a thin, short web molded so the plastic flows straight across it.</figcaption>
 </figure>
-<p>For a constant rectangular section, the root strain during assembly is:</p>
+<p>A cantilever snap is a beam with a hook on its end: an angled entry face that deflects it during assembly, and a retention face that holds afterward. For a constant rectangular section, the root strain during assembly is:</p>
 <div class="formula">ε = <span class="frac"><span>1.5 · y · h</span><span>L<sup>2</sup></span></span></div>
-<p>So doubling the beam length allows four times the deflection for the same strain. Tapering the beam to about half thickness at the tip spreads strain along the beam and allows more deflection again. The insertion force follows from the deflection force P and the entry angle α:</p>
+<p>where y is the deflection (the undercut depth), h the beam thickness and L the beam length. So doubling the beam length allows four times the deflection for the same strain. Tapering the beam to about half thickness at the tip spreads strain along the beam and allows more deflection again. The insertion force follows from the deflection force P and the entry angle α:</p>
 <div class="formula">W = P · <span class="frac"><span>μ + tan α</span><span>1 − μ tan α</span></span></div>
 <p>The same expression with the retention angle gives the separation force. A 90° retention face makes the joint permanent; 30–45° makes it separable.</p>
 
