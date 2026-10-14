@@ -54,6 +54,30 @@ Registry.registerTopic('lesson-1', {
 <h2>Spring motors</h2>
 <p>To get constant <em>torque</em> over many turns, the strip is wound off a storage drum onto an output drum, often bent the opposite way round ("back-bent"). The strip is flexed through its natural curvature and beyond, so the torque is high and nearly flat over the full run. Uses include retractable cord reels, clock and timer drives, cable retractors and film-camera winders.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 230" role="img" aria-label="Constant-torque spring motor: strip wound from a free storage drum onto an output drum in the opposite direction">
+    <circle class="part" cx="140" cy="110" r="60"/>
+    <circle class="thin" cx="140" cy="110" r="54"/><circle class="thin" cx="140" cy="110" r="48"/><circle class="thin" cx="140" cy="110" r="42"/><circle class="thin" cx="140" cy="110" r="36"/>
+    <circle class="part" cx="140" cy="110" r="28"/>
+    <circle class="solid" cx="140" cy="110" r="5"/>
+    <circle class="part" cx="400" cy="110" r="50"/>
+    <circle class="thin" cx="400" cy="110" r="46"/><circle class="thin" cx="400" cy="110" r="42"/>
+    <circle class="part" cx="400" cy="110" r="38"/>
+    <circle class="solid" cx="400" cy="110" r="5"/>
+    <path class="ln" stroke-width="4" d="M140,50 C250,50 290,160 400,160"/>
+    <path class="acc arr-acc" d="M452,80 A60,60 0 0 1 460,140"/>
+    <path class="dash" d="M86,80 A60,60 0 0 0 82,140"/>
+    <text class="lbl" x="70" y="202">storage drum (free)</text>
+    <text class="lbl" x="70" y="218">strip in its natural coil</text>
+    <text class="lbl" x="330" y="202">output drum</text>
+    <text class="lbl" x="330" y="218">strip wound the opposite way</text>
+    <text class="lbl-acc" x="470" y="116">output</text>
+    <text class="lbl-acc" x="470" y="132">torque</text>
+    <text class="lbl" x="200" y="40">strip</text>
+  </svg>
+  <figcaption>A spring motor. The strip is wound off its natural coil on the free drum and onto the output drum bent the other way. It gives nearly constant torque for as long as the strip lasts.</figcaption>
+</figure>
+
 <h2>Where you see them</h2>
 <table>
   <tr><th>Application</th><th>Why constant force helps</th></tr>

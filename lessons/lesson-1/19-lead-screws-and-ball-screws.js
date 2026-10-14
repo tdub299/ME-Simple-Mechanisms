@@ -59,6 +59,35 @@ Registry.registerTopic('lesson-1', {
   <li>Accuracy grades (C0–C10 under ISO 3408/JIS) specify lead error per 300 mm. Rolled screws (C7–C10) are cheaper; ground screws (C0–C5) go into machine tools.</li>
 </ul>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 250" role="img" aria-label="Ball screw section: balls rolling between screw and nut grooves and recirculating through a return tube; inset of gothic-arch groove contact">
+    <rect class="part" x="20" y="120" width="420" height="40"/>
+    <path class="thin" d="M30,120 L30,160 M60,120 L60,160 M90,120 L90,160 M120,120 L120,160 M150,120 L150,160 M410,120 L410,160" opacity="0.5"/>
+    <rect class="hatch" x="190" y="82" width="206" height="26"/>
+    <rect class="hatch" x="190" y="172" width="206" height="26"/>
+    <circle class="acc-fill" cx="204" cy="114" r="8"/><circle class="acc-fill" cx="222" cy="114" r="8"/><circle class="acc-fill" cx="240" cy="114" r="8"/><circle class="acc-fill" cx="258" cy="114" r="8"/><circle class="acc-fill" cx="276" cy="114" r="8"/><circle class="acc-fill" cx="294" cy="114" r="8"/><circle class="acc-fill" cx="312" cy="114" r="8"/><circle class="acc-fill" cx="330" cy="114" r="8"/><circle class="acc-fill" cx="348" cy="114" r="8"/><circle class="acc-fill" cx="366" cy="114" r="8"/><circle class="acc-fill" cx="384" cy="114" r="8"/><circle class="acc-fill" cx="213" cy="166" r="8"/><circle class="acc-fill" cx="231" cy="166" r="8"/><circle class="acc-fill" cx="249" cy="166" r="8"/><circle class="acc-fill" cx="267" cy="166" r="8"/><circle class="acc-fill" cx="285" cy="166" r="8"/><circle class="acc-fill" cx="303" cy="166" r="8"/><circle class="acc-fill" cx="321" cy="166" r="8"/><circle class="acc-fill" cx="339" cy="166" r="8"/><circle class="acc-fill" cx="357" cy="166" r="8"/><circle class="acc-fill" cx="375" cy="166" r="8"/>
+    <path class="ln" stroke-width="10" d="M200,100 C200,30 386,30 386,100" stroke="var(--ink-2)"/>
+    <path class="ln" stroke-width="6" d="M200,100 C200,30 386,30 386,100" stroke="var(--surface)"/>
+    <circle class="acc-fill" opacity="0.5" cx="212" cy="72" r="6"/><circle class="acc-fill" opacity="0.5" cx="250" cy="50" r="6"/><circle class="acc-fill" opacity="0.5" cx="290" cy="44" r="6"/><circle class="acc-fill" opacity="0.5" cx="330" cy="50" r="6"/><circle class="acc-fill" opacity="0.5" cx="368" cy="72" r="6"/>
+    <path class="acc arr-acc" d="M60,200 A30,12 0 1 0 100,204"/>
+    <path class="ln arr" d="M300,222 L360,222"/>
+    <text class="lbl" x="40" y="236">screw turns</text>
+    <text class="lbl" x="296" y="242">nut travels</text>
+    <text class="lbl" x="40" y="108">screw shaft</text>
+    <text class="lbl" x="196" y="20">return tube carries balls back</text>
+    <text class="lbl" x="410" y="96" >nut</text>
+    <g>
+      <text class="lbl-b" x="456" y="140">groove (inset)</text>
+      <path class="hatch" d="M450,152 L540,152 L540,178 L520,178 A22,22 0 0 0 495,166 A22,22 0 0 0 470,178 L450,178 Z"/>
+      <path class="part" d="M450,236 L540,236 L540,206 L520,206 A22,22 0 0 1 495,218 A22,22 0 0 1 470,206 L450,206 Z"/>
+      <circle class="acc-fill" cx="495" cy="192" r="15"/>
+      <circle class="solid" cx="484" cy="181" r="2.5"/><circle class="solid" cx="506" cy="181" r="2.5"/>
+      <circle class="solid" cx="484" cy="203" r="2.5"/><circle class="solid" cx="506" cy="203" r="2.5"/>
+    </g>
+  </svg>
+  <figcaption>Section through a ball nut. The balls roll in matching grooves on the screw and nut; as the screw turns they travel along the thread, and a return tube (or internal deflector) brings them back to the start of the nut. Inset: "gothic-arch" grooves touch each ball at two points per groove, which is what lets a preload remove all play.</figcaption>
+</figure>
+
 <h2>Anti-backlash nuts</h2>
 <figure class="diagram">
   <svg viewBox="0 0 540 170" role="img" aria-label="Split anti-backlash nut with a spring pushing the two halves against opposite thread flanks">

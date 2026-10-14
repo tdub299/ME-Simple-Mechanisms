@@ -94,6 +94,25 @@ Registry.registerTopic('lesson-1', {
 <h2>Wafer locks</h2>
 <p>A wafer lock replaces pin stacks with single flat <strong>wafers</strong> sliding in slots across the plug, each with a hole for the key and a spring. With no key (or the wrong key), wafers stick out of the plug into a slot in the housing. The right key positions every wafer entirely within the plug's diameter. They are cheaper and more compact, and are used in desk drawers, cabinets, mailboxes and many older car locks, but their tolerances are generally looser and security lower.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 270" role="img" aria-label="Cross-section of a wafer lock perpendicular to the key: without a key the wafer sticks into the housing slot; with the right key it sits fully inside the plug">
+    <text class="lbl-b" x="60" y="20">No key: locked</text>
+    <text class="lbl-b" x="330" y="20">Right key: turns</text>
+    <g transform="translate(0,0)"><circle class="hatch" cx="130" cy="120" r="82"/><circle cx="130" cy="120" r="60" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/><rect x="116" y="36" width="28" height="26" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><rect x="116" y="178" width="28" height="26" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><circle class="part" cx="130" cy="120" r="58"/><rect class="acc-fill" x="117" y="86" width="26" height="98"/><rect x="123" y="108" width="14" height="32" fill="var(--surface)" stroke="var(--ink)" stroke-width="1"/><path class="spring" d="M130,86 l-6,-4 l12,-4 l-12,-4 l12,-4 l-6,-2"/></g>
+    <g transform="translate(270,0)"><circle class="hatch" cx="130" cy="120" r="82"/><circle cx="130" cy="120" r="60" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/><rect x="116" y="36" width="28" height="26" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><rect x="116" y="178" width="28" height="26" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><circle class="part" cx="130" cy="120" r="58"/><rect class="acc-fill" x="117" y="72" width="26" height="98"/><rect x="123" y="94" width="14" height="32" fill="var(--surface)" stroke="var(--ink)" stroke-width="1"/><path class="spring" d="M130,72 l-4,-2 l8,-3 l-8,-3 l4,-2"/><rect class="solid" x="125" y="94" width="10" height="56"/></g>
+    <text class="lbl" x="6" y="234">wafer end sits in the</text>
+    <text class="lbl" x="6" y="248">housing slot, so the</text>
+    <text class="lbl" x="6" y="262">plug cannot rotate</text>
+    <line class="thin" x1="60" y1="226" x2="126" y2="190"/>
+    <text class="lbl-acc" x="216" y="96">wafer</text>
+    <text class="lbl" x="216" y="150">plug</text>
+    <text class="lbl" x="216" y="214">housing</text>
+    <text class="lbl" x="300" y="248">key blade lifts the wafer so both</text>
+    <text class="lbl" x="300" y="262">ends are inside the plug</text>
+  </svg>
+  <figcaption>Looking down the keyway. Each wafer is a flat plate with a hole for the key and a small spring. The key's cut at that position decides how far the wafer is lifted. Only when every wafer is fully inside the plug's circle can the plug turn.</figcaption>
+</figure>
+
 <h2>Materials and manufacturing</h2>
 <table>
   <tr><th>Part</th><th>Typical material</th></tr>

@@ -54,6 +54,34 @@ Registry.registerTopic('lesson-1', {
   <li><strong>Annular gap / capillary (laminar):</strong> force ∝ viscosity × velocity. Smooth and linear, but strongly temperature-dependent because it depends directly on viscosity.</li>
   <li><strong>Orifice (turbulent):</strong> pressure drop ∝ density × velocity². Much less sensitive to viscosity and temperature, but force climbs steeply with speed. Vehicle shock absorbers use orifices plus spring-loaded valve stacks to shape the curve.</li>
 </ul>
+<figure class="diagram">
+  <svg viewBox="0 0 560 230" role="img" aria-label="Cross-section of a one-way linear damper: oil-filled cylinder, piston with small orifice and check valve, return spring, rod seal and air pocket">
+    <rect class="fl" x="62" y="72" width="336" height="76"/>
+    <rect class="hot-fill" x="62" y="72" width="30" height="76" opacity="0.6"/>
+    <rect class="ln" x="60" y="70" width="340" height="80"/>
+    <rect class="part" x="220" y="72" width="18" height="76"/>
+    <line class="fl-line" x1="220" y1="88" x2="238" y2="88" stroke="var(--surface)" stroke-width="3"/>
+    <rect x="220" y="122" width="18" height="12" fill="var(--surface)"/>
+    <line class="acc" x1="242" y1="116" x2="242" y2="140" stroke-width="4"/>
+    <rect class="part" x="238" y="103" width="272" height="14"/>
+    <rect class="acc-fill" x="392" y="90" width="8" height="13"/><rect class="acc-fill" x="392" y="117" width="8" height="13"/>
+    <path class="spring" d="M240,110 l10,-24 l10,24 l10,-24 l10,24 l10,-24 l10,24 l10,-24 l10,24 l10,-24 l10,24 l10,-24 l10,24 l10,-24 l10,24 l10,-24"/>
+    <path class="hot arr" d="M540,110 L514,110"/>
+    <path class="fl-line arr-fl" d="M200,88 L216,88"/>
+    <text class="lbl-hot" x="476" y="96">door pushes</text>
+    <text class="lbl" x="40" y="40">air pocket or foam takes up</text>
+    <text class="lbl" x="40" y="56">the volume of the entering rod</text>
+    <line class="thin" x1="76" y1="60" x2="76" y2="80"/>
+    <text class="lbl-fl" x="120" y="184">small orifice: the only path on the push stroke</text>
+    <line class="thin" x1="200" y1="174" x2="228" y2="92"/>
+    <text class="lbl-acc" x="250" y="202">check valve: shut on push, open on return</text>
+    <line class="thin" x1="260" y1="192" x2="244" y2="140"/>
+    <text class="lbl" x="300" y="56">return spring</text>
+    <text class="lbl-acc" x="404" y="62">rod seal</text>
+  </svg>
+  <figcaption>A typical soft-close damper. Pushed in, the piston forces oil through a tiny orifice, so force rises with speed. On the way back out, the check valve opens and the spring resets the rod with almost no resistance.</figcaption>
+</figure>
+
 <p>A check valve in the piston makes a damper one-way (soft-close drawers and hinges, Topic 7). Rotary dampers get the same effect with a one-way clutch on the shaft (Topic 5).</p>
 
 <h2>Key design parameters</h2>

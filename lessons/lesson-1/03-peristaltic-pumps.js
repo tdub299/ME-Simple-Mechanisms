@@ -76,6 +76,25 @@ Registry.registerTopic('lesson-1', {
 </table>
 <p>Linear peristaltic pumps deserve a note: instead of rotating rollers, a cam stack drives 10 or more fingers in a traveling wave against a flat plate. They fit a disposable IV set into a clamshell door, which is why most hospital large-volume infusion pumps use them.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 240" role="img" aria-label="Linear peristaltic infusion pump: a camshaft drives a row of fingers that squeeze IV tubing against a door in a traveling wave">
+    <rect class="fl" x="30" y="128" width="500" height="22"/>
+    <line class="ln" x1="40" y1="50" x2="500" y2="50" stroke-width="4"/>
+    <circle class="part" cx="70" cy="40.7" r="14"/><circle class="solid" cx="70" cy="50" r="2.5"/><circle class="part" cx="106" cy="43.7" r="14"/><circle class="solid" cx="106" cy="50" r="2.5"/><circle class="part" cx="142" cy="48.5" r="14"/><circle class="solid" cx="142" cy="50" r="2.5"/><circle class="part" cx="178" cy="53.6" r="14"/><circle class="solid" cx="178" cy="50" r="2.5"/><circle class="part" cx="214" cy="57.8" r="14"/><circle class="solid" cx="214" cy="50" r="2.5"/><circle class="part" cx="250" cy="59.9" r="14"/><circle class="solid" cx="250" cy="50" r="2.5"/><circle class="part" cx="286" cy="59.3" r="14"/><circle class="solid" cx="286" cy="50" r="2.5"/><circle class="part" cx="322" cy="56.3" r="14"/><circle class="solid" cx="322" cy="50" r="2.5"/><circle class="part" cx="358" cy="51.5" r="14"/><circle class="solid" cx="358" cy="50" r="2.5"/><circle class="part" cx="394" cy="46.4" r="14"/><circle class="solid" cx="394" cy="50" r="2.5"/><circle class="part" cx="430" cy="42.2" r="14"/><circle class="solid" cx="430" cy="50" r="2.5"/><circle class="part" cx="466" cy="40.1" r="14"/><circle class="solid" cx="466" cy="50" r="2.5"/>
+    <rect class="acc-fill" x="59" y="54.7" width="22" height="76" rx="2"/><rect class="acc-fill" x="95" y="57.7" width="22" height="76" rx="2"/><rect class="acc-fill" x="131" y="62.5" width="22" height="76" rx="2"/><rect class="acc-fill" x="167" y="67.6" width="22" height="76" rx="2"/><rect class="acc-fill" x="203" y="71.8" width="22" height="76" rx="2"/><rect class="acc-fill" x="239" y="73.9" width="22" height="76" rx="2"/><rect class="acc-fill" x="275" y="73.3" width="22" height="76" rx="2"/><rect class="acc-fill" x="311" y="70.3" width="22" height="76" rx="2"/><rect class="acc-fill" x="347" y="65.5" width="22" height="76" rx="2"/><rect class="acc-fill" x="383" y="60.4" width="22" height="76" rx="2"/><rect class="acc-fill" x="419" y="56.2" width="22" height="76" rx="2"/><rect class="acc-fill" x="455" y="54.1" width="22" height="76" rx="2"/>
+    <rect class="hatch" x="30" y="150" width="500" height="16"/>
+    <path class="acc arr-acc" d="M200,202 L360,202"/>
+    <path class="fl-line arr-fl" d="M440,139 L540,139"/>
+    <text class="lbl" x="40" y="22">camshaft (motor turns it); each cam is rotated a little from the last</text>
+    <text class="lbl-acc" x="510" y="104">fingers</text>
+    <text class="lbl-fl" x="150" y="184">IV tubing (part of the disposable set)</text>
+    <text class="lbl" x="30" y="184">door / platen</text>
+    <text class="lbl-acc" x="200" y="224">pinch point travels along the tube</text>
+    <text class="lbl-fl" x="470" y="184">flow →</text>
+  </svg>
+  <figcaption>Inside a large-volume infusion pump. Closing the door clamps the IV line against a platen. The cams lift and drop the fingers one after another, so a closed pinch point walks along the tube and pushes fluid ahead of it, like the rollers of a rotary pump laid out flat.</figcaption>
+</figure>
+
 <h2>Tubing materials</h2>
 <table>
   <tr><th>Material</th><th>Strengths</th><th>Limits</th></tr>

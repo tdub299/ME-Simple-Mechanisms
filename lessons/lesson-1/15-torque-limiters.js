@@ -37,6 +37,41 @@ Registry.registerTopic('lesson-1', {
 <h2>The cordless drill clutch</h2>
 <p>The numbered collar on a drill is a ball-detent limiter. The planetary gearbox's ring gear would normally be held still. Instead, its face has small ramps, and spring-loaded balls or pins press against them. Turning the collar changes spring preload. When screw torque exceeds the setting, the ring gear's reaction torque pushes the balls back, the ring gear spins, and the output stops turning while the drill makes its ratcheting noise.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 270" role="img" aria-label="Side section of a cordless drill clutch: chuck, planetary gearset, ring gear with face ramps, spring-loaded pins, springs and torque collar, motor">
+    <rect class="thin" x="140" y="40" width="250" height="170" rx="10"/>
+    <path class="part" d="M20,96 L70,100 L70,150 L20,154 Z"/>
+    <line class="ln" x1="70" y1="125" x2="160" y2="125" stroke-width="7"/>
+    <rect class="part" x="160" y="74" width="70" height="102" rx="4"/>
+    <circle class="thin" cx="195" cy="100" r="14"/>
+    <circle class="thin" cx="195" cy="150" r="14"/>
+    <circle class="thin" cx="195" cy="125" r="9"/>
+    <rect class="acc-fill" x="232" y="62" width="18" height="126"/>
+    <path class="acc-fill" d="M250,66 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 l8,6 l-8,6 L250,186 Z"/>
+    <path class="acc-fill" d="M250,66 l8,6 l-8,6 l8,6 l-8,6 Z" opacity="0"/>
+    <rect class="part" x="262" y="72" width="16" height="10" rx="3"/>
+    <rect class="part" x="262" y="168" width="16" height="10" rx="3"/>
+    <rect class="part" x="278" y="64" width="6" height="122"/>
+    <path class="spring" d="M284,77 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12"/>
+    <path class="spring" d="M284,173 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12 l6,-12 l6,12"/>
+    <rect class="hatch" x="344" y="52" width="20" height="146"/>
+    <line class="ln" x1="250" y1="125" x2="430" y2="125" stroke-width="5"/>
+    <rect class="part" x="430" y="90" width="110" height="70" rx="8"/>
+    <text class="lbl" x="18" y="180">chuck</text>
+    <text class="lbl" x="150" y="230">planetary gears</text>
+    <text class="lbl" x="150" y="246">(sun, planets, carrier)</text>
+    <text class="lbl-acc" x="186" y="30">ring gear with</text>
+    <text class="lbl-acc" x="186" y="44" >ramps on its face</text>
+    <text class="lbl" x="296" y="30">pins + springs</text>
+    <line class="thin" x1="310" y1="34" x2="300" y2="70"/>
+    <text class="lbl" x="366" y="230">torque collar:</text>
+    <text class="lbl" x="366" y="246">screw in for more preload</text>
+    <line class="thin" x1="370" y1="220" x2="356" y2="198"/>
+    <text class="lbl" x="452" y="182">motor</text>
+  </svg>
+  <figcaption>The motor drives the planetary gearset, which turns the chuck. The ring gear would spin backward if it were free, but spring-loaded pins pressing on ramps on its face hold it still. Past the set torque, the ramps push the pins back, the ring gear slips, and the chuck stops while the pins click over each ramp.</figcaption>
+</figure>
+
 <h2>Friction slip clutches</h2>
 <p>Friction discs are clamped between plates by a spring, usually a stack of Belleville (disc) springs. Slip torque is:</p>
 <div class="formula">T = μ · F · r<sub>m</sub> · N</div>

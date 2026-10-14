@@ -18,6 +18,37 @@ Registry.registerTopic('lesson-1', {
 </ul>
 
 <figure class="diagram">
+  <svg viewBox="0 0 560 300" role="img" aria-label="Pressurized metered-dose inhaler assembly: canister upside down in the actuator boot, stem block, sump, spray orifice and mouthpiece">
+    <rect class="part" x="186" y="26" width="108" height="150" rx="16"/>
+    <rect class="fl" x="190" y="110" width="100" height="62" rx="10"/>
+    <rect class="part" x="212" y="172" width="56" height="20" rx="3"/>
+    <rect class="part" x="234" y="192" width="12" height="34"/>
+    <path class="ln" stroke-width="5" d="M168,14 L168,250 L478,250 L478,186 L322,186 L322,14"/>
+    <path class="part" d="M200,226 L280,226 L280,250 L200,250 Z"/>
+    <path class="fl-line" d="M240,226 L240,238 L282,238"/>
+    <path class="fl" opacity="0.55" d="M284,238 L470,200 L470,248 Z"/>
+    <path class="ln arr" d="M240,0 L240,20" transform="translate(0,2)"/>
+    <rect class="acc-fill" x="132" y="70" width="34" height="40" rx="4"/>
+    <text class="lbl-b" x="250" y="14">press</text>
+    <text class="lbl" x="20" y="44">Canister, upside down</text>
+    <text class="lbl" x="20" y="60">(drug + propellant)</text>
+    <line class="thin" x1="150" y1="56" x2="190" y2="70"/>
+    <text class="lbl-acc" x="20" y="96">dose counter</text>
+    <text class="lbl" x="20" y="150">metering valve,</text>
+    <text class="lbl" x="20" y="166">crimped on the neck</text>
+    <line class="thin" x1="128" y1="160" x2="212" y2="182"/>
+    <text class="lbl" x="20" y="210">stem</text>
+    <line class="thin" x1="52" y1="206" x2="234" y2="210"/>
+    <text class="lbl" x="20" y="272">stem block with sump</text>
+    <line class="thin" x1="150" y1="266" x2="210" y2="244"/>
+    <text class="lbl-fl" x="300" y="276">spray orifice (≈0.25–0.6 mm) → plume</text>
+    <line class="thin" x1="300" y1="266" x2="284" y2="240"/>
+    <text class="lbl" x="340" y="176">actuator "boot" and mouthpiece</text>
+  </svg>
+  <figcaption>The whole device. The can sits upside down in the plastic boot. Pressing it pushes the valve body down onto the fixed stem, and the dose flows through the stem block's sump and out of a tiny orifice toward the mouthpiece.</figcaption>
+</figure>
+
+<figure class="diagram">
   <svg viewBox="0 0 600 270" role="img" aria-label="Metering valve at rest and when pressed, showing the two seals and the moving stem">
     <text class="lbl" x="6" y="58">Can (drug +</text>
     <text class="lbl" x="6" y="72">propellant)</text>

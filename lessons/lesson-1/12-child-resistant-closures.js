@@ -11,6 +11,48 @@ Registry.registerTopic('lesson-1', {
 <p>An outer cap spins freely over an inner cap, which carries the thread. They are coupled by teeth on top of the inner cap and lugs inside the outer cap. Each tooth has a vertical face on one side and a ramp on the other. A light flex or spring holds the outer cap up.</p>
 
 <figure class="diagram">
+  <svg viewBox="0 0 560 270" role="img" aria-label="Cross-section of a push-and-turn child-resistant cap: outer cap with lugs over an inner threaded cap with teeth, on a bottle neck">
+    <rect class="hatch" x="150" y="122" width="20" height="140"/>
+    <rect class="hatch" x="390" y="122" width="20" height="140"/>
+    <path class="hatch" d="M150,140 l-10,6 l10,6 Z M150,170 l-10,6 l10,6 Z M150,200 l-10,6 l10,6 Z M410,140 l10,6 l-10,6 Z M410,170 l10,6 l-10,6 Z M410,200 l10,6 l-10,6 Z"/>
+    <rect class="hot-fill" x="150" y="116" width="260" height="6"/>
+    <rect class="part" x="124" y="104" width="312" height="12"/>
+    <rect class="part" x="124" y="116" width="10" height="100"/>
+    <rect class="part" x="426" y="116" width="10" height="100"/>
+    <path class="part" d="M134,152 l8,6 l-8,6 Z M134,182 l8,6 l-8,6 Z M426,152 l-8,6 l8,6 Z M426,182 l-8,6 l8,6 Z"/>
+    <path class="part" d="M180,104 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 l14,-8 l0,8 L376,104 Z"/>
+    <rect class="acc-fill" x="104" y="60" width="352" height="14"/>
+    <rect class="acc-fill" x="104" y="74" width="10" height="150"/>
+    <rect class="acc-fill" x="446" y="74" width="10" height="150"/>
+    <rect class="acc-fill" x="114" y="216" width="14" height="8"/>
+    <rect class="acc-fill" x="432" y="216" width="14" height="8"/>
+    <rect class="acc-fill" x="214" y="74" width="10" height="16"/>
+    <rect class="acc-fill" x="276" y="74" width="10" height="16"/>
+    <rect class="acc-fill" x="338" y="74" width="10" height="16"/>
+    <path class="ln arr" d="M280,20 L280,54"/>
+    <text class="lbl-b" x="290" y="36">push</text>
+    <text class="lbl-acc" x="466" y="70">outer cap</text>
+    <text class="lbl-acc" x="466" y="86">(spins freely)</text>
+    <text class="lbl-acc" x="16" y="70">lugs under the</text>
+    <text class="lbl-acc" x="16" y="86">outer cap top</text>
+    <line class="thin" x1="104" y1="80" x2="212" y2="84"/>
+    <text class="lbl" x="16" y="104">teeth on the</text>
+    <text class="lbl" x="16" y="118">inner cap top</text>
+    <line class="thin" x1="98" y1="110" x2="186" y2="100"/>
+    <text class="lbl" x="466" y="112">inner cap</text>
+    <text class="lbl" x="466" y="126">(threaded)</text>
+    <text class="lbl-hot" x="466" y="150">liner</text>
+    <line class="thin" x1="464" y1="146" x2="408" y2="120"/>
+    <text class="lbl" x="466" y="200">thread</text>
+    <line class="thin" x1="464" y1="196" x2="422" y2="188"/>
+    <text class="lbl-acc" x="16" y="232">retaining lip</text>
+    <line class="thin" x1="98" y1="228" x2="114" y2="222"/>
+    <text class="lbl" x="250" y="200">bottle neck</text>
+  </svg>
+  <figcaption>Section through a push-and-turn cap. The outer cap (blue) is held on by a lip under the inner cap's skirt but can spin. A small gap separates its lugs from the inner cap's teeth; pushing down closes the gap so the lugs can drive the teeth (next figure).</figcaption>
+</figure>
+
+<figure class="diagram">
   <svg viewBox="0 0 590 240" role="img" aria-label="Unrolled view of push-and-turn closure teeth, without and with downward push">
     <g>
       <text class="lbl-b" x="20" y="22">Turn to open, no push</text>

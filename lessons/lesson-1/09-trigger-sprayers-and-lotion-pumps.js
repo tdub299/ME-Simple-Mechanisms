@@ -63,6 +63,49 @@ Registry.registerTopic('lesson-1', {
   <li><strong>Precompression:</strong> better sprayers and finger pumps use an outlet valve that opens only above a set pressure, so the spray is fully atomized from the start and does not dribble at the end of the stroke.</li>
 </ul>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 300" role="img" aria-label="Trigger sprayer layout: trigger, piston and cylinder, return spring, inlet and outlet valves, dip tube and nozzle; plus a face view of the swirl chamber">
+    <rect class="thin" x="70" y="52" width="230" height="146" rx="14"/>
+    <rect class="part" x="34" y="70" width="36" height="34" rx="4"/>
+    <path class="fl" opacity="0.6" d="M34,87 L4,62 L4,112 Z"/>
+    <path class="fl-line" d="M230,138 L250,138 L250,87 L70,87"/>
+    <rect class="acc-fill" x="244" y="104" width="12" height="8"/>
+    <rect class="ln" x="120" y="128" width="110" height="40"/>
+    <rect class="fl" x="156" y="130" width="72" height="36" opacity="0.6"/>
+    <path class="spring" d="M156,148 l7,-14 l7,14 l7,-14 l7,14 l7,-14 l7,14 l7,-14 l7,14 l7,-14 l7,14"/>
+    <rect class="part" x="140" y="130" width="16" height="36"/>
+    <rect class="part" x="100" y="143" width="40" height="8"/>
+    <path class="part" d="M86,108 L100,110 L114,150 L112,236 Q106,250 94,246 L94,170 Z"/>
+    <circle class="solid" cx="92" cy="110" r="5"/>
+    <path class="fl-line" d="M230,160 L267,160 L267,296"/>
+    <circle class="acc-fill" cx="267" cy="178" r="6"/>
+    <rect class="part" x="200" y="198" width="100" height="22"/>
+    <path class="ln" d="M212,220 L212,296 M292,220 L292,296"/>
+    <text class="lbl" x="6" y="132">nozzle cap</text>
+    <text class="lbl" x="6" y="268">trigger (pivots</text>
+    <text class="lbl" x="6" y="282">near the top)</text>
+    <text class="lbl" x="128" y="46">piston + cylinder</text>
+    <line class="thin" x1="170" y1="48" x2="170" y2="128"/>
+    <text class="lbl-acc" x="262" y="104">outlet valve</text>
+    <text class="lbl-acc" x="276" y="182">inlet valve</text>
+    <text class="lbl" x="276" y="260">dip tube</text>
+    <text class="lbl" x="196" y="244" text-anchor="end">closure</text>
+    <g>
+      <text class="lbl-b" x="370" y="30">Swirl chamber (face view)</text>
+      <circle class="part" cx="440" cy="140" r="42"/>
+      <g transform="rotate(0 440 140)"><rect x="438" y="96" width="62" height="12" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><rect x="434" y="97.5" width="12" height="9" fill="var(--surface)"/></g><g transform="rotate(120 440 140)"><rect x="438" y="96" width="62" height="12" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><rect x="434" y="97.5" width="12" height="9" fill="var(--surface)"/></g><g transform="rotate(240 440 140)"><rect x="438" y="96" width="62" height="12" fill="var(--surface)" stroke="var(--ink)" stroke-width="1.5"/><rect x="434" y="97.5" width="12" height="9" fill="var(--surface)"/></g>
+      <circle cx="440" cy="140" r="7" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/>
+      <path class="acc arr-acc" d="M466,140 A26,26 0 1 1 440,114"/>
+      <text class="lbl" x="370" y="226">Liquid enters through</text>
+      <text class="lbl" x="370" y="242">tangential slots, spins, and</text>
+      <text class="lbl" x="370" y="258">leaves the center hole as a</text>
+      <text class="lbl" x="370" y="274">thin cone that breaks into</text>
+      <text class="lbl" x="370" y="290">droplets.</text>
+    </g>
+  </svg>
+  <figcaption>Left: pulling the trigger pushes the piston into the cylinder, closing the inlet ball and sending liquid up past the outlet valve to the nozzle. The spring returns it and refills the cylinder from the dip tube. Right: the spray comes from the swirl chamber behind the nozzle; turning the cap to "stream" bypasses the tangential slots.</figcaption>
+</figure>
+
 <h2>Key design parameters</h2>
 <ul>
   <li><strong>Stroke volume and force:</strong> the piston diameter sets both. A bigger piston gives a bigger dose but needs more finger force for viscous lotions.</li>

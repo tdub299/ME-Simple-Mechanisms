@@ -75,6 +75,41 @@ Registry.registerTopic('lesson-1', {
   <li><strong>Clamping force</strong> is what the clamp actually exerts on the work, from the preload described above. It is usually much lower.</li>
 </ul>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 280" role="img" aria-label="Vertical hold-down toggle clamp: base, arm with spindle and rubber tip, handle and link, clamped and open">
+    <line class="ln" x1="10" y1="244" x2="550" y2="244"/>
+    <rect class="hatch" x="40" y="230" width="140" height="14"/>
+    <path class="part" d="M70,230 L70,160 L130,140 L130,230 Z"/>
+    <rect class="part" x="104" y="142" width="280" height="14" rx="4"/>
+      <rect class="part" x="334" y="156" width="12" height="54"/>
+      <rect class="part" x="326" y="166" width="28" height="8"/>
+      <rect class="hot-fill" x="326" y="210" width="28" height="12" rx="4"/>
+    <rect class="part" x="300" y="222" width="110" height="22"/>
+    <line class="ln" x1="88" y1="186" x2="150" y2="118" stroke-width="8"/>
+    <line class="acc" x1="150" y1="150" x2="168" y2="34" stroke-width="10"/>
+    <rect class="acc-fill" x="156" y="18" width="30" height="40" rx="10" transform="rotate(9 171 38)"/>
+    <circle class="solid" cx="112" cy="150" r="5"/>
+    <circle class="solid" cx="150" cy="150" r="5"/>
+    <circle class="solid" cx="88" cy="186" r="5"/>
+    <circle class="solid" cx="150" cy="118" r="5"/>
+    <path class="hot arr" d="M340,186 L340,206" />
+    <text class="lbl-acc" x="194" y="40">handle</text>
+    <text class="lbl" x="2" y="140">link: goes just</text>
+    <text class="lbl" x="2" y="154">over center</text>
+    <line class="thin" x1="60" y1="160" x2="104" y2="168"/>
+    <text class="lbl" x="230" y="136">arm</text>
+    <text class="lbl" x="360" y="190">spindle (adjust</text>
+    <text class="lbl" x="360" y="204">height with nuts)</text>
+    <text class="lbl-hot" x="420" y="226">rubber tip</text>
+    <text class="lbl" x="306" y="264">workpiece</text>
+    <text class="lbl" x="40" y="264">base bolted to the table</text>
+    <path class="acc arr-acc" d="M392,136 Q400,80 352,52"/>
+    <text class="lbl-acc" x="380" y="80">to release, the arm</text>
+    <text class="lbl-acc" x="380" y="96">swings up out of the way</text>
+  </svg>
+  <figcaption>A vertical hold-down toggle clamp, clamped. The handle, link and arm form the toggle: pulling the handle down drives the link just past its dead point against a stop, so the arm stays locked down on the work. The geometry is simplified.</figcaption>
+</figure>
+
 <h2>Types of toggle clamp</h2>
 <table>
   <tr><th>Type</th><th>Motion</th><th>Typical use</th></tr>

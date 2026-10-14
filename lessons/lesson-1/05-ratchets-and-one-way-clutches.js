@@ -87,6 +87,41 @@ Registry.registerTopic('lesson-1', {
 <h2>Wrap spring clutches</h2>
 <p>A helical spring is wrapped over a shaft. Rotating one way tightens the coils, gripping exponentially harder (the capstan effect); the other way loosens them. They are simple and strong, and they appear in printer paper drives, window blinds and some recliner mechanisms. Adding a control collar on the spring tang turns it into a start-stop clutch.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 300" role="img" aria-label="Sprag clutch section with tilted sprags between two plain races, and a wrap spring clutch wound over two hubs">
+    <g>
+      <text class="lbl-b" x="40" y="22">Sprag clutch (section)</text>
+      <circle class="part" cx="130" cy="140" r="104"/>
+      <circle cx="130" cy="140" r="94" fill="var(--surface)" stroke="var(--ink)" stroke-width="2"/>
+      <circle class="dash" cx="130" cy="140" r="69"/>
+      <rect class="acc-fill" x="193.0" y="116.0" width="12" height="48" rx="6" transform="rotate(-68.0 199.0 140.0)"/><rect class="acc-fill" x="183.8" y="150.5" width="12" height="48" rx="6" transform="rotate(-38.0 189.8 174.5)"/><rect class="acc-fill" x="158.5" y="175.8" width="12" height="48" rx="6" transform="rotate(-8.0 164.5 199.8)"/><rect class="acc-fill" x="124.0" y="185.0" width="12" height="48" rx="6" transform="rotate(22.0 130.0 209.0)"/><rect class="acc-fill" x="89.5" y="175.8" width="12" height="48" rx="6" transform="rotate(52.0 95.5 199.8)"/><rect class="acc-fill" x="64.2" y="150.5" width="12" height="48" rx="6" transform="rotate(82.0 70.2 174.5)"/><rect class="acc-fill" x="55.0" y="116.0" width="12" height="48" rx="6" transform="rotate(112.0 61.0 140.0)"/><rect class="acc-fill" x="64.2" y="81.5" width="12" height="48" rx="6" transform="rotate(142.0 70.2 105.5)"/><rect class="acc-fill" x="89.5" y="56.2" width="12" height="48" rx="6" transform="rotate(172.0 95.5 80.2)"/><rect class="acc-fill" x="124.0" y="47.0" width="12" height="48" rx="6" transform="rotate(202.0 130.0 71.0)"/><rect class="acc-fill" x="158.5" y="56.2" width="12" height="48" rx="6" transform="rotate(232.0 164.5 80.2)"/><rect class="acc-fill" x="183.8" y="81.5" width="12" height="48" rx="6" transform="rotate(262.0 189.8 105.5)"/>
+      <circle class="part" cx="130" cy="140" r="45"/>
+      <circle class="solid" cx="130" cy="140" r="8"/>
+      <path class="acc arr-acc" d="M160,128 A32,32 0 0 1 142,170"/>
+      <text class="lbl" x="10" y="270">outer race · tilted sprags in a cage · inner race</text>
+    </g>
+    <g>
+      <text class="lbl-b" x="330" y="22">Wrap spring clutch</text>
+      <rect class="part" x="330" y="104" width="86" height="52"/>
+      <rect class="part" x="422" y="104" width="86" height="52"/>
+      <line class="ln" x1="300" y1="130" x2="330" y2="130" stroke-width="6"/>
+      <line class="ln" x1="508" y1="130" x2="545" y2="130" stroke-width="6"/>
+      <line class="acc" x1="338" y1="98" x2="347" y2="162" stroke-width="3"/><line class="acc" x1="350" y1="98" x2="359" y2="162" stroke-width="3"/><line class="acc" x1="362" y1="98" x2="371" y2="162" stroke-width="3"/><line class="acc" x1="374" y1="98" x2="383" y2="162" stroke-width="3"/><line class="acc" x1="386" y1="98" x2="395" y2="162" stroke-width="3"/><line class="acc" x1="398" y1="98" x2="407" y2="162" stroke-width="3"/><line class="acc" x1="410" y1="98" x2="419" y2="162" stroke-width="3"/><line class="acc" x1="422" y1="98" x2="431" y2="162" stroke-width="3"/><line class="acc" x1="434" y1="98" x2="443" y2="162" stroke-width="3"/><line class="acc" x1="446" y1="98" x2="455" y2="162" stroke-width="3"/><line class="acc" x1="458" y1="98" x2="467" y2="162" stroke-width="3"/><line class="acc" x1="470" y1="98" x2="479" y2="162" stroke-width="3"/><line class="acc" x1="482" y1="98" x2="491" y2="162" stroke-width="3"/><line class="acc" x1="494" y1="98" x2="503" y2="162" stroke-width="3"/>
+      <line class="acc" x1="506" y1="98" x2="520" y2="70" stroke-width="3"/>
+      <text class="lbl" x="336" y="176">input hub</text>
+      <text class="lbl" x="428" y="176">output hub</text>
+      <text class="lbl-acc" x="470" y="66">tang</text>
+      <text class="lbl" x="320" y="204">Spring bore is slightly smaller than</text>
+      <text class="lbl" x="320" y="220">the hubs. Turned one way the coils</text>
+      <text class="lbl" x="320" y="236">tighten and grip both hubs; the</text>
+      <text class="lbl" x="320" y="252">other way they loosen and slip. A</text>
+      <text class="lbl" x="320" y="268">collar on the tang makes it a</text>
+      <text class="lbl" x="320" y="284">start-stop clutch.</text>
+    </g>
+  </svg>
+  <figcaption>Left: sprags are figure-eight-shaped struts packed between two plain cylindrical races. Turned one way they stand up and jam; the other way they lean over and slip. Right: a wrap spring spans two hubs and grips by the capstan effect (Topic 28).</figcaption>
+</figure>
+
 <h2>Choosing between them</h2>
 <table>
   <tr><th>Type</th><th>Engagement</th><th>Backlash</th><th>Torque density</th><th>Typical use</th></tr>

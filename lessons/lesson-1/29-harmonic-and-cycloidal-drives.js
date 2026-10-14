@@ -51,6 +51,35 @@ Registry.registerTopic('lesson-1', {
 <div class="formula">ratio = <span class="frac"><span>N<sub>flexspline</sub></span><span>N<sub>circular</sub> − N<sub>flexspline</sub></span></span> (output reversed)</div>
 <p>200 and 202 teeth give 100:1 in one stage. Around 30% of the teeth are in mesh at once, so torque capacity is high for the size and backlash is near zero. The costs: the flexspline is a fatigue-critical thin shell; torsional stiffness is low at small loads (wind-up), which can matter for position accuracy; efficiency falls at low temperature and high ratio; and severe overload can make teeth jump ("ratcheting").</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 250" role="img" aria-label="Side section of a harmonic drive: input shaft and elliptical wave generator inside a thin flexspline cup whose teeth mesh with a fixed circular spline; cup bottom drives the output shaft">
+    <line class="dash" x1="10" y1="125" x2="550" y2="125"/>
+    <line class="ln" x1="20" y1="125" x2="124" y2="125" stroke-width="12"/>
+    <rect class="part" x="120" y="72" width="40" height="106" rx="4"/>
+    <circle class="thin" cx="140" cy="66" r="5"/><circle class="thin" cx="140" cy="184" r="5"/>
+    <path class="acc" stroke-width="4" d="M108,58 L318,58 Q330,58 330,70 L330,104"/>
+    <path class="acc" stroke-width="4" d="M108,192 L318,192 Q330,192 330,180 L330,146"/>
+    <path class="acc" d="M108,50 L114,56 L120,50 L126,56 L132,50 L138,56 L144,50 L150,56 L156,50 L162,56 L168,50"/>
+    <path class="acc" d="M108,206 L114,200 L120,206 L126,200 L132,206 L138,200 L144,206 L150,200 L156,206 L162,200 L168,206"/>
+    <rect class="hatch" x="100" y="30" width="76" height="18"/>
+    <rect class="hatch" x="100" y="202" width="76" height="18"/>
+    <path class="thin" d="M100,54 L106,48 L112,54 L118,48 L124,54 L130,48 L136,54 L142,48 L148,54 L154,48 L160,54 L166,48 L172,54"/>
+    <path class="thin" d="M100,196 L106,202 L112,196 L118,202 L124,196 L130,202 L136,196 L142,202 L148,196 L154,202 L160,196 L166,202 L172,196"/>
+    <rect class="part" x="326" y="100" width="26" height="50"/>
+    <rect class="part" x="352" y="117" width="168" height="16"/>
+    <text class="lbl" x="20" y="110">input</text>
+    <text class="lbl" x="20" y="232">wave generator: elliptical cam + thin bearing</text>
+    <line class="thin" x1="120" y1="222" x2="136" y2="180"/>
+    <text class="lbl-acc" x="176" y="82">flexspline: thin steel</text>
+    <text class="lbl-acc" x="176" y="98">cup, teeth at open end</text>
+    <text class="lbl" x="186" y="26">circular spline (fixed, 2 more teeth)</text>
+    <text class="lbl-hot" x="186" y="168">mesh at the ends of the</text>
+    <text class="lbl-hot" x="186" y="184">ellipse's long axis</text>
+    <text class="lbl" x="380" y="104">cup bottom → output</text>
+  </svg>
+  <figcaption>Side section through the long axis of the ellipse. The input spins the elliptical wave generator inside the flexible cup, pushing its teeth into the rigid ring at top and bottom. The cup's closed end is bolted to the output, which turns slowly backward, two teeth per input turn.</figcaption>
+</figure>
+
 <h2>Cycloidal drive</h2>
 <ol>
   <li>An <strong>eccentric</strong> on the input shaft drives a <strong>cycloidal disc</strong> through a bearing.</li>

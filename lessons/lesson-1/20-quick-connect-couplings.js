@@ -59,6 +59,57 @@ Registry.registerTopic('lesson-1', {
 <h2>Cam-lock (camlock) couplings</h2>
 <p>A grooved male adapter fits into a female coupler with two hinged arms. Closing the arms swings cams into the groove, pulling the adapter onto a flat gasket. They are fast, tool-free and robust for hoses carrying fuel, chemicals, slurries and food products. Sizes and dimensions follow standards such as A-A-59326 and EN 14420-7. Locking arms or pins stop the cams vibrating open.</p>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 270" role="img" aria-label="Camlock coupling with cam arms closed and open, and a section through a ball-latch quick coupler">
+    <g>
+      <text class="lbl-b" x="20" y="20">Camlock (side view)</text>
+      <rect class="part" x="20" y="104" width="150" height="48"/>
+      <line class="dash" x1="152" y1="104" x2="152" y2="152"/>
+      <line class="dash" x1="162" y1="104" x2="162" y2="152"/>
+      <rect class="part" x="140" y="88" width="120" height="80" rx="4" fill-opacity="0.85"/>
+      <line class="hot" x1="176" y1="100" x2="176" y2="156" stroke-dasharray="4 3"/>
+      <circle class="part" cx="150" cy="80" r="7"/>
+      <circle class="part" cx="150" cy="176" r="7"/>
+      <path class="acc-fill" d="M144,84 Q157,96 158,104 L150,104 Z"/>
+      <path class="acc-fill" d="M144,172 Q157,160 158,152 L150,152 Z"/>
+      <line class="acc" x1="150" y1="80" x2="262" y2="74" stroke-width="7"/>
+      <line class="acc" x1="150" y1="176" x2="262" y2="182" stroke-width="7"/>
+      <line class="dash" x1="150" y1="80" x2="96" y2="30" stroke-width="5"/>
+      <line class="dash" x1="150" y1="176" x2="96" y2="226" stroke-width="5"/>
+      <text class="lbl" x="22" y="176">grooved adapter</text>
+      <text class="lbl" x="200" y="138">coupler</text>
+      <text class="lbl-acc" x="170" y="62">cam arms (closed)</text>
+      <text class="lbl" x="20" y="44">open</text>
+      <text class="lbl-hot" x="180" y="200">gasket inside</text>
+      <line class="thin" x1="184" y1="190" x2="176" y2="156"/>
+      <text class="lbl" x="20" y="250">Closing the arms swings cam lobes into the</text>
+      <text class="lbl" x="20" y="264">adapter's groove, drawing it onto the gasket.</text>
+    </g>
+    <g transform="translate(300,0)">
+      <text class="lbl-b" x="10" y="20">Ball-latch coupler (section)</text>
+      <path class="part" d="M10,116 L118,116 L118,122 L134,122 L134,116 L150,116 L150,164 L134,164 L134,158 L118,158 L118,164 L10,164 Z"/>
+      <rect class="hatch" x="100" y="100" width="140" height="14"/>
+      <rect class="hatch" x="100" y="166" width="140" height="14"/>
+      <circle class="acc-fill" cx="126" cy="113" r="8"/>
+      <circle class="acc-fill" cx="126" cy="167" r="8"/>
+      <rect class="acc-fill" x="104" y="86" width="44" height="12"/>
+      <rect class="acc-fill" x="104" y="182" width="44" height="12"/>
+      <path class="spring" d="M148,92 l10,-8 l10,8 l10,-8 l10,8 l10,-8 l10,8 l10,-8 l10,8"/>
+      <path class="spring" d="M148,188 l10,-8 l10,8 l10,-8 l10,8 l10,-8 l10,8 l10,-8 l10,8"/>
+      <rect class="part" x="226" y="82" width="10" height="20"/>
+      <rect class="part" x="226" y="178" width="10" height="20"/>
+      <text class="lbl" x="10" y="212">plug (with groove)</text>
+      <text class="lbl-acc" x="150" y="64">sleeve holds</text>
+      <text class="lbl-acc" x="150" y="78">balls in groove</text>
+      <text class="lbl" x="190" y="150">socket</text>
+      <text class="lbl" x="10" y="226">Pull the sleeve back and the balls can</text>
+      <text class="lbl" x="10" y="240">move outward, freeing the plug. Valved</text>
+      <text class="lbl" x="10" y="254">versions add a poppet in each half.</text>
+    </g>
+  </svg>
+  <figcaption>Two ways to hold a hose joint together that come apart in seconds. The camlock uses levered cams in a groove; the ball-latch uses balls trapped by a sliding sleeve. In both, a separate gasket or O-ring does the sealing.</figcaption>
+</figure>
+
 <h2>Medical connectors</h2>
 <p>Luer connectors use a 6% taper for a friction seal, with an optional threaded lock (ISO 80369-7). Because many lines share them, they caused misconnection errors, so the ISO 80369 family defines non-interchangeable small-bore connectors for other uses, such as ENFit for enteral feeding.</p>
 

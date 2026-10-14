@@ -50,6 +50,42 @@ Registry.registerTopic('lesson-1', {
   <figcaption>Left: the door rides on the coupler of a four-bar, so it moves about a shifting instant center rather than a fixed pin. Right: typical closing torque. The spring only acts over the last ~30°, which is where the damper works.</figcaption>
 </figure>
 
+<figure class="diagram">
+  <svg viewBox="0 0 560 350" role="img" aria-label="Top view of a concealed cup hinge on a cabinet: closed, and open at about 95 degrees">
+    <g>
+      <text class="lbl-b" x="30" y="14">Closed (top view)</text>
+      <rect class="hatch" x="40" y="20" width="18" height="195"/>
+      <rect class="part" x="58" y="120" width="8" height="50"/>
+      <rect class="part" x="66" y="134" width="56" height="14" rx="3"/><rect class="part" x="104" y="148" width="14" height="63"/><rect class="part" x="30" y="215" width="120" height="18"/><rect class="acc-fill" x="78" y="211" width="48" height="4"/><rect class="acc-fill" x="84" y="215" width="36" height="13"/>
+      <text class="lbl" x="76" y="40">cabinet side</text>
+      <line class="thin" x1="74" y1="36" x2="56" y2="44"/>
+      <text class="lbl" x="132" y="126">mounting plate + arm</text>
+      <line class="thin" x1="130" y1="122" x2="100" y2="136"/>
+      <text class="lbl-acc" x="136" y="196">35 mm cup bored</text>
+      <text class="lbl-acc" x="136" y="210">into the door</text>
+      <line class="thin" x1="134" y1="200" x2="122" y2="214"/>
+      <text class="lbl" x="40" y="258">door (overlays the cabinet edge)</text>
+    </g>
+    <g transform="translate(280,0)">
+      <text class="lbl-b" x="30" y="14">Open about 95°</text>
+      <rect class="hatch" x="40" y="20" width="18" height="195"/>
+      <rect class="part" x="58" y="120" width="8" height="50"/>
+      <rect class="part" x="66" y="134" width="56" height="14" rx="3"/>
+      <rect class="part" x="104" y="148" width="14" height="57"/>
+      <line class="acc" x1="106" y1="205" x2="56" y2="236" stroke-width="5"/>
+      <line class="acc" x1="116" y1="205" x2="56" y2="258" stroke-width="5"/>
+      <rect class="part" x="34" y="222" width="18" height="120"/>
+      <rect class="acc-fill" x="52" y="222" width="4" height="48"/>
+      <rect class="acc-fill" x="39" y="228" width="13" height="36"/>
+      <text class="lbl-acc" x="96" y="240">links swing the</text>
+      <text class="lbl-acc" x="96" y="254">door out and around</text>
+      <text class="lbl" x="70" y="300">door swings clear of</text>
+      <text class="lbl" x="70" y="314">the cabinet side</text>
+    </g>
+  </svg>
+  <figcaption>What you see from above. The arm is screwed to a plate on the inside of the cabinet side, and the cup sits in a blind hole in the back of the door. When the door opens, the hinge links swing it out and around, so its edge clears the cabinet even though the hinge is hidden. The link layout is simplified.</figcaption>
+</figure>
+
 <h2>Self-closing</h2>
 <p>A spring (often a torsion or leaf spring) bears on a cam surface on one of the links. Over most of the swing the cam profile gives almost no torque, so the door stays where it is left. In the last ~30° the cam drops away and the spring torque pulls the door closed and holds it against the cabinet. This replaces a magnetic or roller catch.</p>
 
