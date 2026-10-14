@@ -23,7 +23,7 @@ Registry.registerTopic('lesson-1', {
       <rect class="part" x="78" y="44" width="44" height="132"/>
       <rect class="acc-fill" x="84" y="56" width="6" height="120"/>
       <rect class="acc-fill" x="110" y="56" width="6" height="120"/>
-      <path class="part" d="M78,176 L122,176 L122,190 L111,180 L111,190 L100,180 L100,190 L89,180 L89,190 L78,180 Z"/>
+      <path class="part" d="M78,176 L122,176 L122,180 L111,190 L111,180 L100,190 L100,180 L89,190 L89,180 L78,190 Z"/>
       <text class="lbl-acc" x="134" y="96">splines</text>
       <line class="thin" x1="132" y1="92" x2="117" y2="100"/>
       <text class="lbl" x="128" y="200">sawtooth</text>
@@ -35,7 +35,7 @@ Registry.registerTopic('lesson-1', {
       <text class="lbl-sm" x="40" y="286">Its sawtooth pushes the rotor.</text>
     </g>
     <g>
-      <path class="part" d="M276,122 L276,108 L287,118 L287,108 L298,118 L298,108 L309,118 L309,108 L320,118 L320,108 L324,111 L324,122 Z"/>
+      <path class="part" d="M276,122 L276,118 L287,108 L287,118 L298,108 L298,118 L309,108 L309,118 L320,108 L320,118 L324,114 L324,122 Z"/>
       <rect class="part" x="276" y="122" width="48" height="78"/>
       <path class="acc-fill" d="M262,132 L276,126 L276,168 L262,168 Z"/>
       <path class="acc-fill" d="M324,132 L338,126 L338,168 L324,168 Z"/>
@@ -77,7 +77,7 @@ Registry.registerTopic('lesson-1', {
       <text class="lbl-sm" x="410" y="286">alternate with shallow notches.</text>
     </g>
   </svg>
-  <figcaption>The three parts that do the work, drawn side by side with the button at the top. Blue marks the features that index the rotor: the plunger's splines, the rotor's angled lugs, and the barrel's two kinds of gap between ribs.</figcaption>
+  <figcaption>The three parts that do the work, drawn side by side with the button at the top. Blue marks the features that index the rotor: the plunger's splines, the rotor's angled lugs, and the barrel's two kinds of gap between ribs. All the sloped faces (plunger teeth, rotor teeth, lug tops and rib ends) lean the same way, so every push turns the rotor in the same direction.</figcaption>
 </figure>
 
 <p>The cycle:</p>
