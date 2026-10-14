@@ -16,6 +16,70 @@ Registry.registerTopic('lesson-1', {
   <li><strong>Plunger (button)</strong> that slides axially but cannot rotate, with a sawtooth crown on its lower end.</li>
   <li><strong>Rotor (cam)</strong> that can slide and rotate, with lugs whose tops are angled to mate with the plunger's sawtooth. The refill sits against the rotor; a compression spring around the refill pushes everything upward.</li>
 </ul>
+<figure class="diagram">
+  <svg viewBox="0 0 600 300" role="img" aria-label="The three parts of a click-pen mechanism: plunger with splines and sawtooth crown, rotor with angled lugs, and the barrel cut open to show ribs, deep channels and shallow notches">
+    <g>
+      <rect class="part" x="66" y="18" width="68" height="26" rx="8"/>
+      <rect class="part" x="78" y="44" width="44" height="132"/>
+      <rect class="acc-fill" x="84" y="56" width="6" height="120"/>
+      <rect class="acc-fill" x="110" y="56" width="6" height="120"/>
+      <path class="part" d="M78,176 L122,176 L122,190 L111,180 L111,190 L100,180 L100,190 L89,180 L89,190 L78,180 Z"/>
+      <text class="lbl-acc" x="134" y="96">splines</text>
+      <line class="thin" x1="132" y1="92" x2="117" y2="100"/>
+      <text class="lbl" x="128" y="200">sawtooth</text>
+      <text class="lbl" x="128" y="214">crown</text>
+      <line class="thin" x1="126" y1="196" x2="116" y2="186"/>
+      <text class="lbl-b" x="40" y="242">Plunger (button)</text>
+      <text class="lbl-sm" x="40" y="258">Slides up and down only: its</text>
+      <text class="lbl-sm" x="40" y="272">splines ride in the barrel channels.</text>
+      <text class="lbl-sm" x="40" y="286">Its sawtooth pushes the rotor.</text>
+    </g>
+    <g>
+      <path class="part" d="M276,122 L276,108 L287,118 L287,108 L298,118 L298,108 L309,118 L309,108 L320,118 L320,108 L324,111 L324,122 Z"/>
+      <rect class="part" x="276" y="122" width="48" height="78"/>
+      <path class="acc-fill" d="M262,132 L276,126 L276,168 L262,168 Z"/>
+      <path class="acc-fill" d="M324,132 L338,126 L338,168 L324,168 Z"/>
+      <path class="acc-fill" opacity="0.6" d="M293,134 L307,128 L307,170 L293,170 Z"/>
+      <rect class="part" x="290" y="200" width="20" height="18"/>
+      <line class="dash" x1="300" y1="218" x2="300" y2="226"/>
+      <text class="lbl" x="214" y="98">mating</text>
+      <text class="lbl" x="214" y="112">sawtooth</text>
+      <line class="thin" x1="262" y1="108" x2="280" y2="112"/>
+      <text class="lbl-acc" x="342" y="122">lugs with</text>
+      <text class="lbl-acc" x="342" y="136">angled tops</text>
+      <line class="thin" x1="342" y1="140" x2="336" y2="130"/>
+      <text class="lbl-sm" x="316" y="214">refill + spring push up</text>
+      <text class="lbl-b" x="228" y="242">Rotor (cam)</text>
+      <text class="lbl-sm" x="228" y="258">Slides and rotates. Lugs land</text>
+      <text class="lbl-sm" x="228" y="272">in deep channels (tip in) or</text>
+      <text class="lbl-sm" x="228" y="286">shallow notches (tip out).</text>
+    </g>
+    <g>
+      <rect class="hatch" x="418" y="20" width="12" height="176"/>
+      <rect class="hatch" x="570" y="20" width="12" height="176"/>
+      <rect x="430" y="20" width="140" height="176" fill="var(--surface-2)" opacity="0.8"/>
+      <path class="part" d="M434,20 L456,20 L456,138 L434,150 Z"/>
+      <path class="part" d="M474,20 L496,20 L496,138 L474,150 Z"/>
+      <path class="part" d="M496,20 L514,20 L514,120 L496,120 Z"/>
+      <path class="part" d="M514,20 L536,20 L536,138 L514,150 Z"/>
+      <path class="part" d="M554,20 L570,20 L570,140 L554,150 Z"/>
+      <line class="dash" x1="465" y1="30" x2="465" y2="140"/>
+      <line class="dash" x1="505" y1="124" x2="505" y2="140"/>
+      <text class="lbl" x="386" y="96">rib</text>
+      <line class="thin" x1="406" y1="92" x2="440" y2="96"/>
+      <text class="lbl-acc" x="440" y="178">deep</text>
+      <line class="thin" x1="460" y1="168" x2="465" y2="150"/>
+      <text class="lbl-acc" x="492" y="190">shallow</text>
+      <line class="thin" x1="510" y1="180" x2="505" y2="142"/>
+      <text class="lbl-b" x="410" y="242">Barrel (cut open)</text>
+      <text class="lbl-sm" x="410" y="258">Fixed. Axial ribs with angled ends.</text>
+      <text class="lbl-sm" x="410" y="272">Between ribs, deep channels</text>
+      <text class="lbl-sm" x="410" y="286">alternate with shallow notches.</text>
+    </g>
+  </svg>
+  <figcaption>The three parts that do the work, drawn side by side with the button at the top. Blue marks the features that index the rotor: the plunger's splines, the rotor's angled lugs, and the barrel's two kinds of gap between ribs.</figcaption>
+</figure>
+
 <p>The cycle:</p>
 <ol>
   <li>Pressing the button pushes the rotor down until its lugs clear the bottom of the barrel ribs.</li>
@@ -24,6 +88,35 @@ Registry.registerTopic('lesson-1', {
   <li>Depending on which phase it has reached, each lug lands in a shallow notch (latched, tip out) or slides up a deep channel (retracted).</li>
   <li>The next click repeats this and lands in the other channel type.</li>
 </ol>
+<figure class="diagram">
+  <svg viewBox="0 0 600 284" role="img" aria-label="Unrolled view of the barrel wall showing one rotor lug moving from a shallow notch, down and sideways when pressed, then up into a deep channel when released">
+    <path class="hatch" d="M60,30 L440,30 L440,137 L402,150 L402,36 L380,36 L380,137 L342,150 L342,122 L320,122 L320,137 L282,150 L282,36 L260,36 L260,137 L222,150 L222,122 L200,122 L200,137 L162,150 L162,36 L140,36 L140,137 L102,150 L102,122 L80,122 L80,137 L60,143.8 Z"/>
+    <path class="ln arr" d="M24,140 L24,60"/>
+    <text class="lbl-sm" x="8" y="160">toward</text>
+    <text class="lbl-sm" x="8" y="174">button</text>
+    <path class="acc-fill"  d="M82,129 L100,123 L100,149 L82,149 Z"/>
+    <path class="acc-fill" opacity="0.55" stroke-dasharray="4 3" d="M106,164 L124,158 L124,184 L106,184 Z"/>
+    <path class="acc-fill" opacity="0.55" stroke-dasharray="4 3" d="M143,46 L161,40 L161,66 L143,66 Z"/>
+    <path class="dash"  d="M202,129 L220,123 L220,149 L202,149 Z"/>
+    <path class="ln arr" d="M98,150 L110,160"/>
+    <path class="acc arr-acc" d="M126,166 C140,160 146,140 152,120 L152,72"/>
+    <text class="lbl-b" x="84" y="116">1</text>
+    <text class="lbl-b" x="94" y="200">2</text>
+    <text class="lbl-b" x="166" y="56">3</text>
+    <text class="lbl-b" x="224" y="146">4</text>
+    <text class="lbl-sm" x="134" y="26">deep channel ↑</text>
+    <text class="lbl-sm" x="174" y="180">shallow notch</text>
+    <line class="thin" x1="200" y1="170" x2="211" y2="152"/>
+    <text class="lbl-b" x="460" y="54">Barrel ribs, unrolled</text>
+    <text class="lbl-sm" x="460" y="70">(inside wall laid flat;</text>
+    <text class="lbl-sm" x="460" y="84">left–right = around the pen)</text>
+    <text class="lbl" x="20" y="224">1 Latched: lug sits in a shallow notch, so the tip is out.</text>
+    <text class="lbl" x="20" y="240">2 Press: lug is pushed below the ribs; the plunger's teeth nudge it sideways.</text>
+    <text class="lbl" x="20" y="256">3 Release: lug rides up the angled rib end into a deep channel, so the tip retracts.</text>
+    <text class="lbl" x="20" y="272">4 Next click: the same moves carry it on into the next shallow notch (tip out).</text>
+  </svg>
+  <figcaption>The inside of the barrel unrolled flat, following one rotor lug (blue) through a click. Each press and release moves it one gap along, alternating between shallow notches (tip out) and deep channels (tip retracted).</figcaption>
+</figure>
 <p>Each click therefore indexes the rotor by half a rib pitch, alternating states. Some pens also rotate the refill each click, which spreads ball and socket wear.</p>
 
 <h2>The ramp condition</h2>
